@@ -13,7 +13,7 @@ public class Stack <T> {
         return LinkedList.head;
 
     }
-    public Node<T> pop(){
+    public static Node<T> pop(){
         return (Node<T>) LinkedList.pop();
     }
     public static void printStack(){
@@ -21,3 +21,13 @@ public class Stack <T> {
     }
 }
 
+/*Ability to peak and
+pop from the Stack
+till it is empty
+56
+->30
+
+->70
+
+- Use LinkedList to do the Stack
+Operations*/

@@ -8,9 +8,9 @@ public class StackMain <T> {
         stack.push(firstNode);
         stack.push(secondNode);
         stack.push(thirdNode);
-        Node<Integer> newNode = Stack.peak();
+        Node<Integer> popNode = Stack.pop();
         Stack.printStack();
         Object Assert = new Object();
-        Assert.equals(thirdNode == newNode);
+        Assert.equals(thirdNode == popNode);
     }
 }
